@@ -1,0 +1,26 @@
+{
+    //required
+    "name" : "simple-plugin",
+    "manifest_version": 2,
+    "version": "1.0",
+
+    //Recommended
+    "description" : "Because Fullstack should be everywhere!",
+    "icons" : {
+        "128": "favicon.ico",
+        "64": "favicon.ico",
+        "32": "favicon.ico"
+    },
+
+    //Type of action: Browser, Page, or none
+    "browser_action" : {
+        "default_title": "Always have the Fullstack developer with you",
+        "default_popup": "popup.html"
+    },
+
+    //intent of app. What you will access from the user
+    "permissions" : [
+        "http://*/*", 
+        "https://*/*"
+    ]
+}
